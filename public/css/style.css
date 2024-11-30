@@ -1,0 +1,65 @@
+/* public/css/style.css */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    background-color: #365A72;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #63898C;
+    border-radius: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #63898C;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Add border to the message section */
+  .message-container {
+    background-color: #e8eff0;
+    border: 1px solid #a1b9bb; /* Set border color and width */
+    border-radius:  20px; /* Optional: adds rounded corners */
+    text-align: center;
+    padding: 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow effect */
+  }
+  
+  .message-container h1 {
+    color: #365A72; /* You can change the heading color */
+    text-align: center;
+  }
+  
+  .message-container p {
+    font-size: 18px;
+    color: #555;
+  }
+  
